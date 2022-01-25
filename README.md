@@ -2,20 +2,6 @@
 
 ![](0.png)
 
-## Dependencies
-
-matplotlib==2.1.1
-
-numpy==1.13.3
-
-opencv-python==3.3.0.10
-
-Pillow==4.3.0
-
-scipy==1.0.0
-
-tensorflow-gpu==1.4.0
-
 ## Datasets
 
 1. Download & Extract [EgoHands](http://vision.soic.indiana.edu/projects/egohands/) into `data/E/`.
@@ -28,40 +14,40 @@ tensorflow-gpu==1.4.0
 
 5. Make sure nothing is wrong.
 
-  ```
-  $ tree -L 2 data/
-  data
-  ├── demo_E.py
-  ├── demo_R.py
-  ├── demo_S.py
-  ├── E
-  │   ├── _LABELLED_SAMPLES
-  │   ├── DEMO_1.m
-  │   ├── DEMO_2.m
-  │   ├── getBoundingBoxes.m
-  │   ├── getFramePath.m
-  │   ├── getMetaBy.m
-  │   ├── getSegmentationMask.m
-  │   ├── metadata.mat
-  │   ├── README.txt
-  │   └── showLabelsOnFrame.m
-  ├── R
-  │   ├── evaluation
-  │   ├── README
-  │   ├── training
-  │   ├── view_samples.m
-  │   └── view_samples.py
-  ├── S
-  │   ├── images
-  │   ├── labels
-  │   └── readme.txt
-  └── T
-      ├── i6_data_P20_BOTH.txt
-      ├── i6_data_P20_SESSION_1.txt
-      ├── i6_data_P20_SESSION_2.txt
-      ├── scripts
-      └── video
-  ```
+   ```
+   $ tree -L 2 data/
+   data
+   ├── demo_E.py
+   ├── demo_R.py
+   ├── demo_S.py
+   ├── E
+   │   ├── _LABELLED_SAMPLES
+   │   ├── DEMO_1.m
+   │   ├── DEMO_2.m
+   │   ├── getBoundingBoxes.m
+   │   ├── getFramePath.m
+   │   ├── getMetaBy.m
+   │   ├── getSegmentationMask.m
+   │   ├── metadata.mat
+   │   ├── README.txt
+   │   └── showLabelsOnFrame.m
+   ├── R
+   │   ├── evaluation
+   │   ├── README
+   │   ├── training
+   │   ├── view_samples.m
+   │   └── view_samples.py
+   ├── S
+   │   ├── images
+   │   ├── labels
+   │   └── readme.txt
+   └── T
+       ├── i6_data_P20_BOTH.txt
+       ├── i6_data_P20_SESSION_1.txt
+       ├── i6_data_P20_SESSION_2.txt
+       ├── scripts
+       └── video
+   ```
 
 ## Training & Evaluating
 
@@ -200,5 +186,3 @@ Working directory is `test/`.
   ```
   $ python run.py
   ```
-
-
